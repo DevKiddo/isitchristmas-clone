@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p {
+    font-weight: bold;
+    font-size: 8.5vw;
+    font-family: Arial, sans-serif;
+}
