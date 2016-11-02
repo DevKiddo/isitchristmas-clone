@@ -21,5 +21,6 @@ app.engine('handlebars', hbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 app.get('/', index.home);
+app.get('/reply', index.reply);
 
 app.listen(8080);
