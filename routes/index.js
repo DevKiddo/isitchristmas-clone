@@ -16,9 +16,11 @@ let home = function (req, res) {
 }
 
 
-module.exports = {
-    home: home,
-    reply: reply
+let requestHandlers = {
+    home,
+    reply
 }
+
+module.exports =  requestHandlers;
 
 
