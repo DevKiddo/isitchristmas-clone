@@ -18,6 +18,8 @@ p {
     font-family: Arial, sans-serif;
 }
 
+/* Attribution: http://cssdeck.com/labs/christmas-button  */
+
 #button {
 	display: inline-block;
 	-webkit-box-sizing:border-box;
